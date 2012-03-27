@@ -1,9 +1,9 @@
 
 # Tersus
 
-An achingly simple stylesheet without all the usual cruft.
+An achingly simple theme without all the usual cruft.
 
-Specifically created for use with the [Newton Personal Data Sharing](http://npds.free.fr/) web server software.
+Specifically created for use with the [Newton Personal Data Sharing](http://npds.free.fr/) web server.
 
 
 ## About
@@ -19,7 +19,9 @@ Keep track of Tersus development on [Twitter](http://twitter.com/tersustheme).
 
 ## Features
 
++ HTML5 structure and compliance
 + CSS that has been reset and built from the ground up
++ Non-semantic, presentational markup has been dispatched
 + Responsive, adaptive layout for small screens
 + Clean, valid, and awesome
 
