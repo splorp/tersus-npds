@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Welcome to <USR_NAME>’s Newton</title>
+		<link rel="stylesheet" href="#" type="text/css" media="screen" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Welcome to <USR_NAME>’s Newton</h1>
+		</header>
+
+		<section>
+			<article>
+
+				<p>Enjoy your visit.</p>
+				
+				<p>You happen to be looking at page <COUNTER> served up by this cute little chunk of hardware, which is currently running <MOTD> and <ROMVERS>. Looking for a thrill? Take a look at what's going down on my Newton’s <a href="/screen/">screen</a> right now.</p>
+				
+				<p>Contact the proprietor:<p>
+				
+				<p>Email: <EMAIL><br />
+				Web Pager: <a href="/pager/">Send an Instant Message</a><br />
+				Message Board: <a href="/html/postnote.html">Post a Message</a></p>
+				
+				<p>The server is registered on this <TRAQ></p>
+				
+				<p>The server has been running for <SERVER-UPTIME></p>
+				
+				<p>The battery temperature is: <TEMP></p>
+				
+				<p>The local time is <TIME>.</p>
+				
+			</article>
+		</section>
+			
+		<aside>
+			<h2>Recent Notes</h2>
+			<p><notes sortKey="timestamp"></p>
+			
+			<h2>Search</h2>
+			<form action="/html/search.ns" method="get">
+				<input type="text" name="s_words" value="" size="10" maxlength="48" />
+				<input type="submit" name="Submit" value="Go!" />
+			</form>
+			
+			<h2>Recent Messages</h2>
+			<p><notes type="post" sortKey="timestamp" order="reverse" limit="10" format="list"></p>
+			<ul>
+				<li><a href="/html/postnote.html">Post New Message</a></li>
+				<li><a href="/html/messages">View All Messages</a> (<notescount type="post">)</li>
+			</ul>
+		</aside>
+		
+		<footer>
+			<p>Powered by <a href="http://npds.free.fr/" title="The friendly web server you can hold in your hand.">Newton Personal Data Sharing</a></p>
+			<p>Copyright © Matt Vaughn, Paul Guyot, Victor Rehorst, Grant Hutchinson, Josh Burker, et al.</p>
+		</footer>
+
+	</body>
+</html>
